@@ -1,8 +1,9 @@
+[![npm version](https://badge.fury.io/js/logji.svg)](https://badge.fury.io/js/logji)
 
 # Installation
 
 ```
-    npm install logji
+npm install logji
 ```
 
 # Usage
@@ -10,13 +11,13 @@
 ```
 import logji from 'logji`
 
-const sayHi = () => {
-    logji.joy("emojis")           // 😂emojis
-    logji.fire("are")              // 🔥are
-    logji.fire("for")               // 🔥for
-    logji.computer("programmers")    // 💻programmers
-    logji.cocktail("too")             // 🍸too
-}
+logji.joy("emojis")
+logji.fire("are")
+logji.fire("for")   
+logji.computer("programmers")
+logji.cocktail("too")
 ```
 
-[Full emoji list here](https://github.com/domfyi/logji/blob/master/list.json)
+![terminal](https://github.com/domfyi/logji/blob/master/screen.png?raw=true)
+
+👉 [Full emoji list here](https://github.com/domfyi/logji/blob/master/list.json).
