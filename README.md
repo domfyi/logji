@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/logji.svg)](https://badge.fury.io/js/logji)
 
 # Installation
 
