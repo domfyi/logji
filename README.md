@@ -20,4 +20,4 @@ logji.cocktail("too")
 
 ![terminal](https://github.com/domfyi/logji/blob/master/screen.png?raw=true)
 
-👉 [Full emoji list here](https://github.com/domfyi/logji/blob/master/list.json).
+👉 [Full emoji list here](https://github.com/domfyi/logji/blob/master/list.js).
