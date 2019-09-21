@@ -1,3 +1,4 @@
+
 logji.log('hi') // hi
 
 logji.grinning('hi') // 😀 hi
