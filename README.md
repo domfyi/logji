@@ -5,7 +5,7 @@
     npm install logji
 ```
 
-# Example
+# Usage
 
 ```
 import logji from 'logji`
@@ -19,4 +19,4 @@ const sayHi = () => {
 }
 ```
 
-[Full emoji list here](./list.json)
+[Full emoji list here](https://github.com/domfyi/logji/blob/master/list.json)
