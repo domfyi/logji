@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/logji.svg)](https://badge.fury.io/js/logji)
+[![npm version](https://badge.fury.io/js/logji.svg)](https://badge.fury.io/js/logji) ![npm](https://img.shields.io/npm/dw/logji)
 
 # Installation
 
