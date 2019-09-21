@@ -1,8 +1,5 @@
 
 const {emojis} = require('./emojis.json')
-const logji = { log: v => console.log(v) }
-const fs = require('fs')
-
 const codes = {}
 const list = []
 emojis
@@ -25,7 +22,10 @@ emojis
 
 module.exports = new Proxy({}, { get(_,name) {
     return message => {
-        if (codes[name]) {
+        if (name === 'log') {
+            console.log(message)
+        }
+        else if (codes[name]) {
             console.log(`${codes[name]}  ${message}`)
         } else {
             console.log(`:${name}: ${message}`)}
@@ -33,4 +33,4 @@ module.exports = new Proxy({}, { get(_,name) {
   }})
 
 // generate list
-// fs.writeFileSync('./list.json', Object.entries(codes).map(([key, value]) => `logji.${key}('hi') // ${value} hi`).join('\n'), null, 2, 'utf-8');
+// require('fs').writeFileSync('./list.json', Object.entries(codes).map(([key, value]) => `logji.${key}('hi') // ${value} hi`).join('\n'), null, 2, 'utf-8');
