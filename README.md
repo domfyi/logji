@@ -2,7 +2,7 @@
 # Installation
 
 ```
-    npm install logji
+npm install logji
 ```
 
 # Usage
