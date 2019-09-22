@@ -3,7 +3,7 @@
 # Installation
 
 ```
-npm install logji
+npm install logji --save
 ```
 
 # Usage
