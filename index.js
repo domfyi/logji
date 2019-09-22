@@ -23,7 +23,7 @@ emojis
 
 // const doLog = { emoji, message };
 
-module.exports = new Proxy(
+const logji = new Proxy(
   {},
   {
     get(_, name) {
@@ -39,6 +39,8 @@ module.exports = new Proxy(
     }
   }
 );
+
+module.exports = logji;
 
 // generate list
 // require('fs').writeFileSync('./list.json', Object.entries(codes).map(([key, value]) => `logji.${key}('hi') // ${value} hi`).join('\n'), null, 2, 'utf-8');

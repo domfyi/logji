@@ -11,6 +11,8 @@ logji.fire(["array1", "array 2"]);
 logji.computer(42);
 logji.cocktail("multiple", "args");
 
+logji.nomatch("hi");
+
 // 😂  emojis
 // 🔥  are
 // 🔥  for
@@ -21,3 +23,5 @@ logji.cocktail("multiple", "args");
 // 🔥  ['array1', 'array 2']
 // 💻  42
 // 🍸  multiple args
+
+// : nomatch: hi
