@@ -6,6 +6,8 @@
 npm install logji --save
 ```
 
+Emoji's are a great way to quickly locate relevant entries in logs. This  lets you `logji.wave` instead of `console.log` for situations requiring `👋emphasis`. All [compatible emojis](https://github.com/domfyi/logji/blob/master/list.js) are supported.
+
 ## Demo
 
 ```
@@ -19,5 +21,3 @@ logji.cocktail("too")
 ```
 
 ![terminal](https://github.com/domfyi/logji/blob/master/screen.png?raw=true)
-
-👉 [Full emoji list here](https://github.com/domfyi/logji/blob/master/list.js).
