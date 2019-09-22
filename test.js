@@ -1,7 +1,23 @@
 const logji = require("./index");
 
-logji.joy({ object: "here" }); // 😂emojis
-logji.fire(["array1", "array 2"]); // 🔥are
-logji.fire("string"); // 🔥for
-logji.computer(42); // 💻programmers
-logji.cocktail("multiple", "args"); // 🍸too
+logji.joy("emojis");
+logji.fire("are");
+logji.fire("for");
+logji.computer("programmers");
+logji.cocktail("too");
+logji.log("-");
+logji.joy({ object: "here" });
+logji.fire(["array1", "array 2"]);
+logji.computer(42);
+logji.cocktail("multiple", "args");
+
+// 😂  emojis
+// 🔥  are
+// 🔥  for
+// 💻  programmers
+// 🍸  too
+//     -
+// 😂  { object: 'here' }
+// 🔥  ['array1', 'array 2']
+// 💻  42
+// 🍸  multiple args
