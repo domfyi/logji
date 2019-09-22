@@ -8,10 +8,10 @@ emojis
   .forEach(e => {
     let key;
     if (e.shortname.slice(0, 5) === ":flag") {
-      key = e.shortname.slice(1, 8).replace("-", "_"); // rename flags
+      key = e.shortname.slice(1, 8).replace("-", "_"); // rename flags
     } else {
       if (e.name.match(/^\d+$/)) {
-        // prefix numbers with n
+        // prefix numbers with n
         key = `n${e.name}`;
       } else {
         key = e.name;
@@ -21,22 +21,24 @@ emojis
     list.push({ key, emoji: e.emoji, order: Number(e.order) || 9999 });
   });
 
+// const doLog = { emoji, message };
+
 module.exports = new Proxy(
   {},
   {
     get(_, name) {
-      return message => {
+      return (...message) => {
         if (name === "log") {
-          console.log(message);
+          console.log(...message);
         } else if (codes[name]) {
-          console.log(`${codes[name]}  ${message}`);
+          console.log(`${codes[name]} `, ...message);
         } else {
-          console.log(`:${name}: ${message}`);
+          console.log(`:${name}: `, ...message);
         }
       };
     }
   }
 );
 
-// generate list
-// require('fs').writeFileSync('./list.json', Object.entries(codes).map(([key, value]) => `logji.${key}('hi') // ${value} hi`).join('\n'), null, 2, 'utf-8');
+// generate list
+// require('fs').writeFileSync('./list.json', Object.entries(codes).map(([key, value]) => `logji.${key}('hi') // ${value} hi`).join('\n'), null, 2, 'utf-8');
