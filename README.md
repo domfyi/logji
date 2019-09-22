@@ -1,12 +1,12 @@
 [![npm version](https://badge.fury.io/js/logji.svg) ![npm bundle size](https://img.shields.io/bundlephobia/min/logji) ![npm](https://img.shields.io/npm/dw/logji)](https://www.npmjs.com/package/logji)
 
-👋 logji
+# 👋 logji
 
 ```
 npm install logji --save
 ```
 
-# Usage
+## Demo
 
 ```
 import logji from 'logji`
