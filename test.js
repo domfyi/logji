@@ -24,4 +24,4 @@ logji.nomatch("hi");
 // 💻  42
 // 🍸  multiple args
 
-// : nomatch: hi
+// :nomatch: hi
