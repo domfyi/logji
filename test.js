@@ -1,8 +1,7 @@
+const logji = require("./index");
 
-const logji = require('./index')
-
-logji.joy("emojis")           // 😂emojis
-logji.fire("are")              // 🔥are
-logji.fire("for")               // 🔥for
-logji.computer("programmers")    // 💻programmers
-logji.cocktail("too")             // 🍸too
+logji.joy({ object: "here" }); // 😂emojis
+logji.fire(["array1", "array 2"]); // 🔥are
+logji.fire("string"); // 🔥for
+logji.computer(42); // 💻programmers
+logji.cocktail("multiple", "args"); // 🍸too
